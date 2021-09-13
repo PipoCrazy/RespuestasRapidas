@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v6.0,Profile=windows": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v6.0,Profile=windows": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Fer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Fer\\source\\repos\\RespuestasRapidas\\RespuestasRapidas\\RespuestasRapidas.csproj",
+      "projectName": "RespuestasRapidas",
+      "projectPath": "C:\\Users\\Fer\\source\\repos\\RespuestasRapidas\\RespuestasRapidas\\RespuestasRapidas.csproj",
+      "packagesPath": "C:\\Users\\Fer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fer\\source\\repos\\RespuestasRapidas\\RespuestasRapidas\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Fer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net60-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net60-windows": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net60-windows": {}
+    }
+  }
+}
