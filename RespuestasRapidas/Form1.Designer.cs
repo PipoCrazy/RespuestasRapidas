@@ -29,9 +29,13 @@ namespace RespuestasRapidas
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.BtnAgregarResp = new System.Windows.Forms.Button();
             this.CajaDeTextoCrearRespuesta = new System.Windows.Forms.TextBox();
             this.ListaRespuestas = new System.Windows.Forms.ListBox();
+            this.CMStripListaRespuestas = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.EliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.CMStripListaRespuestas.SuspendLayout();
             this.SuspendLayout();
             // 
             // BtnAgregarResp
@@ -47,6 +51,7 @@ namespace RespuestasRapidas
             // 
             // CajaDeTextoCrearRespuesta
             // 
+            this.CajaDeTextoCrearRespuesta.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.CajaDeTextoCrearRespuesta.Location = new System.Drawing.Point(12, 14);
             this.CajaDeTextoCrearRespuesta.Name = "CajaDeTextoCrearRespuesta";
             this.CajaDeTextoCrearRespuesta.Size = new System.Drawing.Size(1245, 25);
@@ -54,6 +59,7 @@ namespace RespuestasRapidas
             // 
             // ListaRespuestas
             // 
+            this.ListaRespuestas.ContextMenuStrip = this.CMStripListaRespuestas;
             this.ListaRespuestas.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.ListaRespuestas.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ListaRespuestas.FormattingEnabled = true;
@@ -65,7 +71,20 @@ namespace RespuestasRapidas
             this.ListaRespuestas.Size = new System.Drawing.Size(1350, 412);
             this.ListaRespuestas.TabIndex = 2;
             this.ListaRespuestas.DoubleClick += new System.EventHandler(this.ListaRespuestas_DoubleClick);
-            this.ListaRespuestas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListaRespuestas_RightClick);
+            // 
+            // CMStripListaRespuestas
+            // 
+            this.CMStripListaRespuestas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.EliminarToolStripMenuItem});
+            this.CMStripListaRespuestas.Name = "contextMenuStrip1";
+            this.CMStripListaRespuestas.Size = new System.Drawing.Size(118, 26);
+            // 
+            // EliminarToolStripMenuItem
+            // 
+            this.EliminarToolStripMenuItem.Name = "EliminarToolStripMenuItem";
+            this.EliminarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.EliminarToolStripMenuItem.Text = "Eliminar";
+            this.EliminarToolStripMenuItem.Click += new System.EventHandler(this.EliminarToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -83,6 +102,7 @@ namespace RespuestasRapidas
             this.Text = "Respuestas Rápidas";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.CMStripListaRespuestas.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,6 +113,8 @@ namespace RespuestasRapidas
         private System.Windows.Forms.Button BtnAgregarResp;
         private System.Windows.Forms.TextBox CajaDeTextoCrearRespuesta;
         private System.Windows.Forms.ListBox ListaRespuestas;
+        private System.Windows.Forms.ContextMenuStrip CMStripListaRespuestas;
+        private System.Windows.Forms.ToolStripMenuItem EliminarToolStripMenuItem;
     }
 }
 

@@ -10,7 +10,6 @@ C:\Users\Fer\source\repos\RespuestasRapidas\RespuestasRapidas\obj\Debug\net6.0-w
 C:\Users\Fer\source\repos\RespuestasRapidas\RespuestasRapidas\obj\Debug\net6.0-windows\RespuestasRapidas.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Fer\source\repos\RespuestasRapidas\RespuestasRapidas\obj\Debug\net6.0-windows\RespuestasRapidas.AssemblyInfoInputs.cache
 C:\Users\Fer\source\repos\RespuestasRapidas\RespuestasRapidas\obj\Debug\net6.0-windows\RespuestasRapidas.AssemblyInfo.cs
-C:\Users\Fer\source\repos\RespuestasRapidas\RespuestasRapidas\obj\Debug\net6.0-windows\RespuestasRapidas.ImplicitNamespaceImports.cs
 C:\Users\Fer\source\repos\RespuestasRapidas\RespuestasRapidas\obj\Debug\net6.0-windows\RespuestasRapidas.csproj.CoreCompileInputs.cache
 C:\Users\Fer\source\repos\RespuestasRapidas\RespuestasRapidas\obj\Debug\net6.0-windows\RespuestasRapidas.dll
 C:\Users\Fer\source\repos\RespuestasRapidas\RespuestasRapidas\obj\Debug\net6.0-windows\ref\RespuestasRapidas.dll

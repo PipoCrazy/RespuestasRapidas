@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
+using System;
 
 namespace RespuestasRapidas
 {
@@ -94,25 +95,12 @@ namespace RespuestasRapidas
             }
         } // Función para guardar cambios
 
-        private void ListaRespuestas_RightClick(object sender, MouseEventArgs e)
+        private void EliminarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            switch (e.Button)
+            if (ListaRespuestas.SelectedItem != null)
             {
-
-                case MouseButtons.Right:
-
-                    ListaRespuestas.SelectedIndex = ListaRespuestas.IndexFromPoint(e.X, e.Y); // selecciona el item incluso con el click derecho
-                    
-                    if (ListaRespuestas.SelectedItem != null)
-                    {
-                        
-
-                    }
-                    break;
-                   
-}
-        } // A futuro, abre menú para borrar respuesta
-
-
+                ListaRespuestas.Items.Remove(ListaRespuestas.SelectedItem);
+            }
+        }
     }
 }
